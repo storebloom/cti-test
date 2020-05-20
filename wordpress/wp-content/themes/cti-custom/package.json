@@ -1,7 +1,7 @@
 {
-  "name": "universal-streaming",
+  "name": "cti-custom",
   "version": "1.0.0",
-  "description": "Dependencies for Universal Streaming theme",
+  "description": "Dependencies for CTI Custom theme",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
