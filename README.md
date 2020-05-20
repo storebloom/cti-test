@@ -17,3 +17,8 @@ You need the following:
 2. run `npm install` to get gulp and front end dependencies
 3. compile SCSS by running `gulp sass`
 4. compile JS by running `gulp js`
+
+#Browsersync instructions
+1. To watch and auto update after gulp run
+`browser-sync start --proxy "localhost:8000" --files "assets/dist/css/*.css"`
+
