@@ -8,8 +8,8 @@ For local development:
 2. install your fresh WP instance.
 3. Activate CTI Custom theme.
 
-#Compiling theme SCSS/JS
+#Compiling theme SCSS/JS (and do this first time)
 1. cd to theme `wordpress/wp-content/themes/cti-custom`
-2. run `yarn install`
+2. run `yarn install` to get gulp and front end dependencies
 3. compile SCSS by running `gulp sass`
 4. compile JS by running `gulp js`
