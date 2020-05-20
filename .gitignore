@@ -4,3 +4,4 @@ composer.lock
 yarn.lock
 vendor
 plugins
+yarn-error.log
