@@ -1,0 +1,20 @@
+{
+    "name": "cti/test-site",
+    "description": "CTI Test site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields":"5.8.11",
+        "wpackagist-plugin/custom-post-type-ui":"1.7.4"
+    },
+    "extra": {
+        "installer-paths": {
+            "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
